@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class ApiService {
 
-  private baseUrl = 'https://localhost:7189/api/';
+  private baseUrl = 'https://portfolio-9ex9.onrender.com/api/';
 
   constructor(private http: HttpClient) { }
 
