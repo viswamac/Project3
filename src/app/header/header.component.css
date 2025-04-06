@@ -1,0 +1,47 @@
+.button-color-change {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-color-change:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+.headerbtn{
+    border-color: #00ff0d !important;
+    border: #00ff0d !important;
+    border-radius: 5px;
+    color: white !important;
+    margin-left: 10px;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #0c1632;
+    /* margin-bottom: 15px; */
+}
+
+.title-link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.name{
+    margin-right: 100%;
+    color: white;
+}

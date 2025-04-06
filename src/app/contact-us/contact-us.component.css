@@ -1,0 +1,22 @@
+
+.contact-us-main {
+    background-color: #1b253e !important;
+    min-height: 100vh;
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers card horizontally */
+    align-items: center; /* Centers card vertically */
+}
+
+.card {
+    width: 30%;
+    padding: 16px;
+    text-align: center;
+    background-color: white; /* Ensure background color is visible */
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+.btn{
+    background-color: #1b253e !important;
+    color: white !important;
+}
+

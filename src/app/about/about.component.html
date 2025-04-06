@@ -1,0 +1,14 @@
+<app-header></app-header>
+<div class="about-main">
+    <div class = "about-row">
+        <div class = "column about-description">
+            <div class="description">
+                <h2 style="color: yellow;">{{ this.aboutContent?.title }}</h2>
+                <p>{{this.aboutContent?.description }}</p>
+            </div>
+        </div>
+        <div class = "column">
+            <img class="about-image" [src]="this.aboutContent?.imageUrl" alt="My Photo">
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<app-header></app-header>
+<div class="project-main">
+    <div class = "row">
+        @for (item of this.projectData; track item?.id) {
+            <mat-card class="example-card" appearance="outlined">
+                <mat-card-header>
+                    <mat-card-title style="color: yellow;">{{ item?.title }}</mat-card-title>
+                </mat-card-header>
+        
+                <mat-card-content>
+                    <p style="color: white;">
+                        {{ item?.description }}
+                    </p>
+                </mat-card-content>
+        
+                <mat-card-actions class ="button-row">
+                    <button class="button" mat-button>View Project</button>
+                  </mat-card-actions>
+        
+            </mat-card>
+          }
+    </div>
+</div>

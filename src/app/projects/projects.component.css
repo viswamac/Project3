@@ -1,0 +1,41 @@
+.example-card {
+  flex: 1 1 calc(33.33% - 16px); /* Max 3 columns per row */
+  max-width: calc(33.33% - 16px); /* Ensures only 3 cards per row */
+  box-sizing: border-box;
+  background-color: #0c1632;
+  border: none !important;
+  }
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;  /* Allows columns to wrap */
+    justify-content: center;
+    gap: 10px; /* Space between columns */
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .column {
+    flex: 1;  /* Equal width columns */
+    max-width: calc(100% / 3 - 10px); /* Max 3 columns per row */
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.project-main{
+  background-color:  #1b253e;
+  min-height: 100vh; /* Makes it take full screen height */
+}
+
+.button{
+  background-color: yellow;
+  color: black !important;
+  border-radius: 5% !important;
+}
+
+.button-row{
+  justify-content: right !important;
+  align-items: right !important;
+}
